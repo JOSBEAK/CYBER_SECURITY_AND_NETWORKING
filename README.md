@@ -7,10 +7,10 @@ Markup :  ## Heading 2 ##
 ### THIRD ###
 Markup :  ### Heading 3 ###
 
-####_EMPHASIZED TEXT_####
+#_EMPHASIZED TEXT_#
 Markup :  _Emphasized text_ or *Emphasized text*
 
-##### STRIKETHROUGH TEXT #####
+# STRIKETHROUGH TEXT #
 Markup :  ~~Strikethrough text~~
 
 #STONG TEXT#
