@@ -23,10 +23,16 @@
 ``` Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/> ```
 
 ### HEADING-1(TO GO TO A TOPIC) ###
-``` Markup: [heading-1](#heading-1 "Goto heading-1") ```
-
+Markup: [SECOND](#SECOND "Goto SECOND")
+```
+Markup: [heading-1](#heading-1 "Goto heading-1")
+```
 
 ### CREATE A TABLE ###
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 ```
 First Header  | Second Header
 ------------- | -------------
@@ -35,6 +41,17 @@ Content Cell  | Content Cell
 ```
 
 ### BULLET LIST ###
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2
 ``` 
 Markup : * Bullet list
               * Nested bullet
@@ -50,6 +67,10 @@ Markup : * Bullet list
 ```
 
 ### NUMBERED LIST ###
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 ```
 Markup : 1. A numbered list
               1. A nested numbered list
@@ -58,18 +79,24 @@ Markup : 1. A numbered list
 
 ```
 ### **COMPLETED AND UNCOMPLETED TASK** ###
+Markup : - [ ] An uncompleted task
+          - [x] A completed task
 ```
 Markup : - [ ] An uncompleted task
           - [x] A completed task
 
 ```
 ### UNCLOPLETED TASK WITH A SUBTASK ###
+Markup : - [ ] An uncompleted task
+              - [ ] A subtask
 ```
  Markup : - [ ] An uncompleted task
               - [ ] A subtask
 
 ```
 ### BLOCK QUOTE ###
+Markup :  > Blockquote
+          >> Nested Blockquote
 ```
 Markup :  > Blockquote
           >> Nested Blockquote
@@ -77,16 +104,22 @@ Markup :  > Blockquote
 ```
 
 ### HORIZONTAL LINE ###
+Markup :  - - - -
 ```
 Markup :  - - - -
 ```
 
 ### IMAGE WITH ALT ###
+Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 ```
 Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 ```
 ## FOLDABLE TEXT ##
+Markup : <details>
+           <summary>Title 1</summary>
+           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+         </details>
 ```
 Markup : <details>
            <summary>Title 1</summary>
@@ -96,6 +129,8 @@ Markup : <details>
 ```
 ### LINK TO A SPECIFIC PART OF THE PAGE ###
 ###### GO TO TOP
+Markup : [text goes here](#section_name)
+          section_title<a name="section_name"></a> 
 ```
 Markup : [text goes here](#section_name)
           section_title<a name="section_name"></a>
