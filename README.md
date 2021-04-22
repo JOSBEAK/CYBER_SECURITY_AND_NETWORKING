@@ -1,5 +1,5 @@
 # SELF SYNTAX HELP #
-```SELF HELP WITH SOME SYNTAX :)``
+``` SELF HELP WITH SOME SYNTAX :) ```
 
 ## SECOND ##
 ``` Markup :  ## Heading 2 ## ```
